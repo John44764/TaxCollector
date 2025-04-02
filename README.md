@@ -11,7 +11,7 @@ making it easier to manage debts and track outstanding balances.
 - [x] Add people who owe you money along with the amount
 - [x] View a list of all outstanding debts
 - [ ] Update payments when someone pays you or owes you more
-- [ ] Remove fully paid debts from the list
+- [x] Remove fully paid debts from the list
 
 ## Installation
 
