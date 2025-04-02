@@ -35,10 +35,9 @@ if deleteButton and st.session_state.infos["Namen"]:
     indexOfnameOfUserToDelete = st.session_state.infos["Namen"].index(nameOfUserToDelete)
     st.session_state.infos["Namen"].pop(indexOfnameOfUserToDelete)
     st.session_state.infos["Schulden"].pop(indexOfnameOfUserToDelete)
+    st.rerun()
 elif deleteButton:
     st.error("Error: can't delete with no entries in the table")
-
-#TODO: update selectbox so u cant delete things that aren't in the list
 
 #table last update before deploy
 table = pd.DataFrame(st.session_state.infos)
