@@ -25,7 +25,7 @@ with st.form(key="my_form"):
     name = st.text_input("Name", placeholder="\"John Doe\"")
     schulden = st.number_input("Schulden $", placeholder="$", step=0.99999, format="%0.2f" )
     submitButton = st.form_submit_button("hinzufügen")
-submitUserInfos(table
+submitUserInfos(table)
 
 nameOfUserToDelete = st.selectbox("select", st.session_state.infos["Namen"])
 deleteButton = st.button("Delete")
